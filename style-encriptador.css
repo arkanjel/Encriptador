@@ -1,0 +1,66 @@
+body {
+    background: #F3F5FC;
+    font-family: 'Inter';
+    width: 90%;
+}
+
+img {
+    margin: 40px 84px;
+    height: 48px;
+    width: 31.085588455200195px;
+    left: 44px;
+}
+
+#texto {
+    position: absolute;
+    margin: 168px 0px;
+    width: 577px;
+    height: 48px;
+    left: 240px;
+    top: 168px;
+
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 150%;
+    color: rgba(10, 56, 113, 1);
+    background: none;
+    border: none;
+}
+.btnBox{
+    position: absolute;
+    top: 85%;
+    left: 10%;
+}
+.btnBox p{
+font-size: 13px;
+color: rgba(0, 0, 0, 0.30);
+
+}
+.btnBox input{
+width: 400px;
+border-radius: 5px;
+padding: 20px;
+margin: 15px 24px 0px 0px;
+font-size: 20px;
+}
+.encriptado{
+    right: 20%;
+    position: absolute;
+    background: rgb(102, 173, 240);
+    height: 90%;
+    width: 400px;
+    top: 40px;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.pie{
+    background-color: aqua;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 10px;
+    width: 90%;
+    bottom: 0;
+}

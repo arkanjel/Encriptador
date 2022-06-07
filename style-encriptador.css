@@ -69,3 +69,6 @@ color: rgb(240, 240, 240);
     width: 90%;
     bottom: 0;
 }
+.invisible{
+    display: none;
+}

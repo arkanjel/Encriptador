@@ -8,56 +8,73 @@ img {
     margin: 40px 84px;
     height: 48px;
     width: 31.085588455200195px;
-    left: 44px;
+    left: 5%;
 }
 
 #texto {
-    position: absolute;
-    margin: 168px 0px;
-    width: 577px;
-    height: 48px;
-    left: 240px;
-    top: 168px;
+    position: static;
+    margin: 75%, 60%;
+    width: 45%;
+    height: 60%;
+    left: 10%;
+    top: 30%;
 
-    font-weight: 400;
+    font-weight: 400px;
     font-size: 48px;
     line-height: 150%;
     color: rgba(10, 56, 113, 1);
     background: none;
-    border: none;
+    border: black;
+    
 }
+
 .btnBox{
-    position: absolute;
-    top: 85%;
-    left: 10%;
+    position:absolute;
+    /*bottom: 10%;
+    left: 8%;
+    */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px;
+    gap: 40px;
+    width: 15%;
+    height: 10%;
+    left: 8%;
+    bottom: 10%;
+    /*top: 107px;*/
 }
+
 .btnBox p{
-font-size: 13px;
-color: rgba(0, 0, 0, 0.30);
+font-size: 16px;
+color: rgba(39, 36, 36, 0.3);
+flex: none;
 
 }
+
 .btnBox input{
-width: 400px;
-border-radius: 5px;
+width: 100%;
+border-radius: 20px;
 padding: 20px;
 margin: 15px 24px 0px 0px;
 font-size: 20px;
-background: #818181;
+background: #757474;
 color: rgb(240, 240, 240);
 /*-webkit-text-stroke: 0.5px black;*/
 }
+
 .encriptado{
-    right: 15%;
-    position: absolute;
-    background: rgb(45, 111, 173);
-    height: 88%;
-    width: 400px;
-    top: 40px;
-    border-radius: 5px;
-    padding: 15px;
+    margin-left: 72%;
+    margin-bottom: 5%;
+    position: static;
+    background: rgb(32, 83, 131);
+    height:  10%;
+    width: 10%;
+    top: 10%;
+    border-radius: 20px;
+    padding: 12%;
     font-size: 30px;
     text-align: center;
-    
 }
 
 .pie{
@@ -69,6 +86,7 @@ color: rgb(240, 240, 240);
     width: 90%;
     bottom: 0;
 }
+
 .invisible{
     display: none;
 }

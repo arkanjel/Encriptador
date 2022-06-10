@@ -8,6 +8,7 @@ textoIngresado.addEventListener("click",function(){
 var encriptar = document.querySelector("#btn-encriptar");
 encriptar.addEventListener("click", function(event){
 console.log("Encriptando");
+console.log(textoIngresado.value);
 
 });
 //boton desencriptar

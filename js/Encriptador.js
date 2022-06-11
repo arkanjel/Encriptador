@@ -7,14 +7,12 @@ textoIngresado.addEventListener("click",function(){
 //boton encriptar
 var encriptar = document.querySelector("#btn-encriptar");
 encriptar.addEventListener("click", function(event){
-console.log("Encriptando");
-console.log(textoIngresado.value);
-
+metodoParaEncriptar(textoIngresado.value);
 });
 //boton desencriptar
 var desencriptar = document.querySelector("#btn-desencriptar");
 desencriptar.addEventListener("click", function(event){
-console.log("Desencriptando");
+metodoParaDesencriptar(textoIngresado.value);
 });
 //boton copiar
 var copiar = document.querySelector("#btn-copiar");
